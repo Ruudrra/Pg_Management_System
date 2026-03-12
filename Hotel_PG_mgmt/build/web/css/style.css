@@ -1,0 +1,223 @@
+/* =========================
+GLOBAL
+========================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#333;
+}
+
+/* =========================
+SIDEBAR
+========================= */
+
+.sidebar{
+position:fixed;
+left:0;
+top:0;
+width:230px;
+height:100%;
+background:#2c3e50;
+padding-top:30px;
+}
+
+.logo{
+color:white;
+text-align:center;
+margin-bottom:30px;
+font-weight:500;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:14px 25px;
+text-decoration:none;
+font-size:15px;
+transition:0.3s;
+}
+
+.sidebar a:hover{
+background:#1abc9c;
+padding-left:35px;
+}
+
+/* =========================
+MAIN CONTENT
+========================= */
+
+.main{
+margin-left:230px;
+padding:30px;
+}
+
+/* =========================
+DASHBOARD CARDS
+========================= */
+
+.dashboard{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:220px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+/* =========================
+TABLE DESIGN
+========================= */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+border-radius:8px;
+overflow:hidden;
+}
+
+th{
+background:#34495e;
+color:white;
+padding:12px;
+}
+
+td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f1f1f1;
+}
+
+/* =========================
+FORM DESIGN
+========================= */
+
+.form-box{
+background:white;
+padding:25px;
+border-radius:10px;
+width:420px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-box h2{
+margin-bottom:15px;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+/* =========================
+BUTTONS
+========================= */
+
+button{
+background:#1abc9c;
+border:none;
+padding:10px;
+width:100%;
+color:white;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#16a085;
+}
+
+/* =========================
+ACTION BUTTONS
+========================= */
+
+.edit{
+background:#f39c12;
+padding:5px 10px;
+color:white;
+border-radius:5px;
+text-decoration:none;
+}
+
+.delete{
+background:#e74c3c;
+padding:5px 10px;
+color:white;
+border-radius:5px;
+text-decoration:none;
+}
+
+/* =========================
+LOGIN PAGE
+========================= */
+
+.login-body{
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.login-box{
+background:white;
+padding:35px;
+width:340px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.login-box h2{
+margin-bottom:20px;
+}
+
+/* =========================
+SEARCH BAR
+========================= */
+
+.search{
+margin-bottom:15px;
+}
+
+.search input{
+width:250px;
+padding:8px;
+}
+
+/* =========================
+FOOTER
+========================= */
+
+.footer{
+margin-top:40px;
+text-align:center;
+color:#777;
+font-size:14px;
+}
